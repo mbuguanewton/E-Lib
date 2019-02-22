@@ -1,0 +1,285 @@
+*{
+	box-sizing: border-box;
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	
+}
+
+.pimg1{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pimg1{
+	background-image: url("../images/new images/books-coffee.jpeg");
+	min-height: 100%;
+}
+
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+	min-height: 100%;
+}
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.navbar{
+	border-radius: 0 !important;
+	width: 100%;
+	height: 45px;
+    background-color: transparent;
+	position: relative;
+	transition: 1s ease;
+	
+}
+
+.navbar-brand{
+	font-weight: 600;
+	font-size: 10rem;
+	color: #FFF;
+	font-family: 'Broadway';
+	letter-spacing: 4px;
+}
+
+.navbar-brand:hover{
+  	color: #da3e44;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.navbar-nav li{
+	padding: 20px;
+}
+.navbar-nav li a{
+  	text-transform: uppercase;
+	  color: #FFF;
+}
+.navbar-nav li a:hover{
+	color: #da3e44;
+	transition: 1s ease-in-out;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+}
+.navbar .form{
+	margin-right: 2%;
+	width: auto;
+	display: none;
+}
+.navbar .form .form-control{
+	background-color: transparent;
+	width: 20%px;
+	border: 0;
+	border-bottom: #fff solid 1px;
+	border-radius: 0;
+}
+#my_navbar{
+	background-color: transparent !important;
+	padding: 20px;
+	border-radius: 2px;
+}
+.navbar-toggler{
+	border: 0 !important;
+	outline: none !important;
+}
+.navbar-toggler:focus{
+	border: 0 !important;
+	outline: none !important;
+}
+
+.fa{
+	margin-left: 10px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #da3e44;
+}
+
+@media(max-width:568px){
+	.pimg1, .pimg2{
+		background-attachment: scroll;
+	}
+}
+
+
+.pheader{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+	font-size: 48px;
+	font-weight: 700;
+    letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.ptext{
+	position: absolute;
+	top: 55%;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+
+/* footer styling */
+
+footer{
+	background-color: #33383c;
+	padding:20px 0px;
+}
+footer .display-5{
+	color: #c7c7c7;
+	text-align: center;
+}	
+     
+footer .input-group{
+	width: 60%;
+	margin-left: 20%;
+}
+footer .form-control{
+	border-radius: 3px;
+}      
+footer .btn{
+	border-radius: 3px;
+}
+
+.address span , .menu span, .social span, .fspan{
+  color: #FFF; 
+  font-weight: bold; 
+  display: inline-block;
+  border-bottom: 1px solid #c7c7c7; 
+  padding:10px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.address li a , .menu li a, .social li a{
+   color:#FFF;
+   letter-spacing: 3px;
+   text-decoration:none;
+   font-size:14px;
+}
+
+.address li, .menu li, .social li{
+   margin:15px 0px;
+   list-style: none;
+}
+
+.address li a:hover , .menu li a:hover,  .social li a:hover{
+   color: #da3e44;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
+   -o-transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
+}
+
+.address .fa{
+   color: #da3e44;
+   margin-right: 10px;
+   font-size:14px;
+}
+label{
+	color: #FFF;
+	font-size:14px;
+	letter-spacing: 3px;
+}
+
+.container-fluid p{
+	text-align: center;
+	color: #c7c7c7;
+}
+.copyright{
+	margin-top: 0px;
+}
+
+/* section styling */
+/* testing*/
+#showcase{
+	padding: 30px;
+	height: 100vh;
+
+}
+#showcase h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#showcase img{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	margin-left: 0 !important;
+	opacity: 0.85;
+	margin-top: 30px;
+
+}
+#showcase .showcase-right{
+	margin-top: 70px;
+	margin-left: 20px;
+}
+/* it worked */
+
+.explore-btn{
+	border-radius: 2px;
+	border: 1px solid #263238 !important;
+	color: #333;
+	margin-left: 20px;
+}
+.explore-btn:hover{
+	background-color: #424242;
+	color: #f2f2f2;
+	transition: 1.5s ease-in;
+}
+
+
+.popup{
+	position: fixed;
+	top: 45px;
+	right: 50px;
+	width: 150px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 3px;
+	z-index: 10000;
+	display: none;
+}
+.popup .nav-item:hover{
+	background: #424242;
+	transition: 1s ease-out;
+
+}
+.popup .nav-link{
+	color: #333;
+	text-transform: uppercase;
+}
+.popup .nav-link:hover{
+	color: #fff;
+	transition:1s ease-out;
+}

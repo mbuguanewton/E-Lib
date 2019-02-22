@@ -1,0 +1,178 @@
+*{
+	box-sizing: content-box;
+}
+
+body{
+	margin: 0px;
+  background-color: #eee;
+}
+
+.navbar{
+	border-radius: 0 !important;
+	height: 45px;
+	background-color: #33383c;
+
+}
+.navbar-brand{
+	font-weight: 600;
+	font-size: 26px;
+	color: #fff;
+	font-family: 'Broadway';
+	letter-spacing: 4px;
+}
+
+.navbar-brand:hover{
+	color: #da3e44;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.navbar-nav li{
+	padding: 10px;
+}
+.navbar-nav li a{
+  text-transform: uppercase;
+	color: #f4f4f4;
+}
+.navbar-nav li a:hover{
+	color: #da3e44;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+
+}
+
+.form-inline .form-control{
+  border-radius: 3px;
+}
+.form-inline .btn{
+	border-radius: 3px;
+}
+.fa{
+  margin-left: 10px;
+  color: #000;
+}
+.fa:hover{
+	color: #da3e44;
+}
+
+.container-fluid {
+  margin-top: 2%;
+}
+.card{
+  margin-bottom: 20px;
+  opacity: 0.80;
+ /* background-image: url(images/darkbook.jpg);*/
+  height: 500px;
+  
+}
+
+.card-body .btn{
+  position: relative;
+
+	color:#fff;
+	width: 100px;
+	border: #000 solid 1px;
+	text-align: center;
+  padding: 8px 8px;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: lighter;
+	background-color: #33383c;
+	text-decoration: none !important;
+  
+}
+.card-body .btn:hover{
+  color: #fff;
+	text-decoration: none !important;
+	background-color: #263238;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.carousel-inner{
+	border-radius: 2px;
+}
+.carousel-item img{
+		height: 300px;
+		background-size: cover;
+		border-radius: 2px;
+}
+
+
+footer .display-5{
+	color: #c7c7c7;
+	text-align: center;
+}
+
+footer{
+	background-color: #33383c;
+	padding:20px 0px;
+  	margin-bottom: 5px;
+}	
+     
+footer .input-group{
+	width: 60%;
+	margin-left: 20%;
+}
+footer .form-control{
+	border-radius: 3px;
+}      
+footer .btn{
+	border-radius: 3px;
+}
+
+.address span , .menu span, .social span, .fspan{
+  color: #FFF; 
+  font-weight: bold; 
+  display: inline-block;
+  border-bottom: 1px solid #c7c7c7; 
+  padding:10px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.address li a , .menu li a, .social li a{
+   color:#FFF;
+   letter-spacing: 3px;
+   text-decoration:none;
+   font-size:14px;
+}
+
+.address li, .menu li, .social li{
+   margin:15px 0px;
+   list-style: none;
+}
+
+.address li a:hover , .menu li a:hover,  .social li a:hover{
+   color: #da3e44;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
+   -o-transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
+}
+
+.address .fa{
+   color: #da3e44;
+   margin-right: 10px;
+   font-size:14px;
+}
+label{
+	color: #FFF;
+	font-size:14px;
+	letter-spacing: 3px;
+}
+
+.container-fluid p{
+	text-align: center;
+	color: #c7c7c7;
+}
+.copyright{
+	margin-top: 20px;
+}

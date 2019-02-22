@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intitial-scale = 1">
+
+	<style type="text/css">
+		.mySlides{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="mySlideshow" style="max-width: 500px">
+		<img class="mySlides" src="images/cosmos.jpg" style="width: 100%">
+		<img class="mySlides" src="images/book.jpg" style="width: 100%">
+		<img class="mySlides" src="images/books 2.jpg" style="width: 100%">
+		<img class="mySlides" src="images/books.jpg" style="width: 100%">
+	</div>
+
+  <script type="text/javascript">
+  	var myIndex = 0;
+  	carousel();
+
+  	function carousel(){
+  		var i;
+  		var x = document.getElementByClassName("mySlides");
+  		for (i = 0; i < x.length; i++){
+  			x[i].style.display = "none";
+  		}
+  		myIndex++;
+  		if (myIndex > x.length) {
+  			myIndex = 1
+  		}
+  		x[myIndex - 1].style.display = "block";
+  		setTimeout(carousel,2000);
+  	}
+  </script>
+
+</body>
+</html>
